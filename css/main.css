@@ -55,6 +55,7 @@
 	padding-bottom: 450px;
 	background-image:url(../images/slider/bg1.jpg);
 	background-repeat:no-repeat; 
+	background-size:cover;
 	width:100%;
 }
 
@@ -107,6 +108,17 @@
 	color:#010F22;
 }
 
+.text-tean{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.text-p{
+	margin-bottom:40px;
+}
+
+.img-circle{
+	margin:10px;
+}
 /*Section red*/
 
 .red{
@@ -137,12 +149,22 @@
 	list-style: none;
 	color: #ffffff;
 }
+
+.media-object{
+	position:relative;
+	float:left;
+	margin:10px;
+}
+
 /*footer*/
 
 footer{
 	background-color: #091B32;
 }
 
+.Shape-inline{
+	color: #ffffff;
+}
 
 /*Iconos */
 
@@ -175,14 +197,30 @@ footer{
 	color:#848484;
 }
 
-
-
-
-.text-What{
-	padding-top:200px;
+.fa-facebook{
+	color:#0033ff;
+	font-size:20px;
+	margin:5px;
 }
-.text-Cause{
+.fa-google-plus{ 
+	color:#d34836;
+	font-size:20px;
+	margin:5px;
+}
+.fa-twitter{
+	color:#3ECCFC;
+	font-size:20px;
+	margin:5px;
+}
+.fa-linkedin{
+	color:#013E52;
+	font-size:20px;
+	margin:5px;
+}
 
+.fa-windows{
+	color: #A6A6A6;
+	font-size:60px
 }
 
 .btn-default {
@@ -192,7 +230,7 @@ footer{
 }
 
 .btn {
-	font-size: 20px;
+	font-size: 15px;
 }
 .progress-bar-success {
     background-color: #d9534f;
