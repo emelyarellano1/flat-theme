@@ -113,11 +113,30 @@
 	margin-bottom:20px;
 }
 .text-p{
+	margin:10px;
+	text-align:justify;
 	margin-bottom:40px;
 }
 
 .img-circle{
 	margin:10px;
+}
+.justify-Tex{
+	text-align:justify;
+	margin:10px;
+}
+.back-blanc{
+
+	background-color: #ffffff;
+	border-radius:10px;
+}
+.text-pie{
+	margin:10px;
+	font-size:20px;
+}
+.i-pie{
+	margin:10px;
+	color:#A4A4A4;
 }
 /*Section red*/
 
@@ -222,15 +241,17 @@ footer{
 	color: #A6A6A6;
 	font-size:60px
 }
-
-.btn-default {
+.btn-num{
+	margin-top:35px;
+}
+.b {
 	color:#ffffff;
 	background-color: #C3021F;
     border-color: #c1c1c1;
 }
 
 .btn {
-	font-size: 15px;
+	font-size:15px;
 }
 .progress-bar-success {
     background-color: #d9534f;
@@ -247,8 +268,43 @@ footer{
 
 .img-circle{
 	border: 5px solid #ffffff;
-	 -moz-border-radius: 100%;
-     -webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
 }
 
-
+/* IMG */
+.ipsum{
+	margin-top:60px; 
+}
+.back-item1{
+	width:330px;
+	height:320px;
+	background-color:#ffffff;
+	padding-top:10px;
+	margin:10px;
+}
+.back-item2{
+	width:330px;
+	height:320px;
+	background-color:#ffffff;
+	padding-top:10px;
+	margin:10px;
+}
+.back-item3{
+	width:330px;
+	height:320px;
+	background-color:#ffffff;
+	padding-top:10px;
+	margin:10px;
+}
+.item1{ 
+	width:300px;
+}
+.item2{
+	width:300px;
+	height: 270px;
+}
+.item3{
+	width:300px;
+	height: 270px;
+}
